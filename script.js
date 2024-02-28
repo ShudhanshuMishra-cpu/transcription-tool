@@ -1,6 +1,11 @@
 
 const userMessage = [
   /* 0 */["hi", "hey", "hello", "hlo", "hi there", "hey there"],
+  ["How can I perform a transformer test?", "Tell me about reactor maintenance.", "What are the steps for a circuit breaker test?", "Instrument transformer checks procedure?", "Maintenance of surge arrestors?"],
+  ["What are the acceptable limits for transformer tests?", "Tell me about probable values in reactor maintenance.", "Acceptable limits for circuit breaker tests?", "Permissible values for instrument transformer checks?", "Standard limits for surge arrestor tests?"],
+  ["How to resolve issues during transformer maintenance?", "Troubleshooting reactor maintenance problems?", "Actions for circuit breaker test issues?", "Dealing with problems in instrument transformer checks?", "Resolving issues in surge arrestor maintenance."],
+  ["Industrial standards for transformer maintenance?", "Safety guidelines for reactor maintenance?", "Industry standards for circuit breaker tests?", "Safety protocols for instrument transformer checks?", "Guidelines for surge arrestor maintenance."],
+  ["Recommended equipment for transformer maintenance?", "Tools for efficient reactor maintenance.", "Equipment for circuit breaker tests?", "Essential tools for instrument transformer checks?", "Selecting equipment for surge arrestor maintenance."],
   /* 1 */["how are you", "how r u", "hw r u", "how are you doing", "how's it going", "how's life"],
   /* 2 */["what are you doing", "what is going on", "what is up", "wud", "what's up", "what's happening", "ok", "ok"],
   /* 3 */["how old are you"],
@@ -21,24 +26,28 @@ const userMessage = [
   /* 18 */["What's the time now?", "What's the current time?", "Tell me the time", "time"],
     /* 19 */["events", "news", "plans", "esports", "game", "planned", "future"],
         /* 20 */["previous", "old", "school visit", "visit", "school"],
+       
 ];
 
 const botReply = [
   /* 0 */["Hello! 😊", "Hi! 👋", "Hey! 👍", "Hi there! 👋"],
+  ["Hello! How can I assist you with transformer maintenance today?", "Hi there! Ready to guide you through reactor maintenance.", "Hey! Need help with circuit breaker tests?", "Hi! Let's talk about instrument transformers maintenance.", "Hello! Ready to answer your queries on surge arrestor tests."],
+  ["Sure! The acceptable limits for transformer tests depend on the specific type. Could you specify which one?", "Certainly! The probable values in reactor maintenance vary. Do you have a specific reactor in mind?", "Of course! The acceptable limits for circuit breaker tests differ. Can you provide more details?", "Certainly! The permissible values for instrument transformer checks depend on the type. Any specific one you're interested in?", "Absolutely! Standard limits for surge arrestor tests vary. Can you specify the type you're asking about?"],
+  ["If you're facing issues during transformer maintenance, check the connections and ensure proper power supply. Need more details for specific troubleshooting.", "In case of problems during reactor maintenance, inspect the components and connections. Can you provide more details on the issue?", "For circuit breaker test issues, check for loose connections and ensure proper calibration. Any specific problem you're facing?", "If you encounter problems during instrument transformer checks, validate connections and equipment calibration. More details on the issue?", "Facing problems with surge arrestor maintenance? Ensure proper grounding and check for physical damage. Any specific issue you want to discuss?"],
+  ["Sure! The industrial standards for transformer maintenance include IEEE C57 series. Familiar with those?", "Absolutely! Reactor maintenance safety guidelines involve adherence to IEEE standards. Any specific safety aspect you're curious about?", "Certainly! Industry standards for circuit breaker tests include ANSI/IEEE standards. Any particular guideline you're interested in?", "Certainly! Safety protocols for instrument transformer checks involve compliance with IEEE and IEC standards. More details needed?", "Absolutely! Guidelines for surge arrestor maintenance follow IEEE and IEC standards. Any specific guideline you want to discuss?"],
+  ["For transformer maintenance, common test equipment includes insulation testers and turns ratio meters. Anything specific you're looking for?", "In reactor maintenance, essential tools include thermal imaging cameras and power quality analyzers. Need recommendations?", "For circuit breaker tests, recommended equipment includes circuit breaker analyzers and timing test sets. Any specific equipment you're interested in?", "Essential tools for instrument transformer checks include CT analyzers and voltage detectors. Looking for recommendations?", "Selecting the right equipment for surge arrestor maintenance depends on the type. Any specific surge arrestor you're working with?"],
   /* 1 */["Fine... how are you? 😄", "Pretty well, how are you? 😊", "Fantastic, how are you? 🌟"],
   /* 2 */["Getting better. There? 😄", "Somewhat okay! 😅", "Yeah fine!🏡"],
   /* 3 */["I am always young. 👶"],
   /* 4 */["Goodbye! 👋", "Farewell! 😊", "Please take care! 🌼"],
   /* 5 */["I am just a bot 😄", "I am a bot. What are you? 🤖"],
-  /* 6 */["Amaan Mohammed Khalander is my creator 🙌"],
-  /* 7 */["You can contact Amaan:<br> Email: <a href='mailto:syedkhalander66@gmail.com'>syedkhalander66@gmail.com 📧</a>"],
-  /* 8 */["You can contact Amaan:<br> Phone: <a href='tel:8867305645'>8867305645</a> 📱<br> WhatsApp: <a href='https://wa.me/7353346164'>7353346164</a> 💬"],
-  /* 9 */["Instagram: <a href='https://www.instagram.com/amaan.m.k/'>@amaan.m.k 📷</a>"],
-  /* 10 */["GitHub: <a href='https://github.com/amaan9136'>@amaan9136 🐙</a>"],
-  /* 11 */["I am ClubGPT by Amaan Mohammed Khalander 😊"],
+  /* 6 */["Shudhanshu is my creator 🙌"],
+  /* 7 */["You can contact Shudhanshu:<br> Email: <a href='mailto:syedkhalander66@gmail.com'>syedkhalander66@gmail.com 📧</a>"],
+  /* 8 */["You can contact Shudhanshu:<br> Phone: <a href='tel:8867305645'>9977992417</a> 📱<br> WhatsApp: <a href='https://wa.me/7353346164'>9977992417</a> 💬"],
+  /* 11 */["I am ClubGPT by Shudhanshu 😊"],
   /* 12 */["I love you too ❤️", "Me too! 😄", "Thanks! Try giving feedback on WhatsApp: <a href='https://wa.me/7353346164'>7353346164</a> 💬"],
   /* 13 */[
-    "I'm glad to hear that you're feeling happy! 😄", "That's great! 😊", "Thanks! Try giving feedback on WhatsApp: <a href='https://wa.me/7353346164'>7353346164</a> 💬", "Fun is always good! 🎉", "Wonderful! 😄", "Fantastic! 😃", "Cool! 😎", "😊", "Awesome! 🌟", "Excellent! 👏"
+    "I'm glad to hear that you're feeling happy! 😄", "That's great! 😊", "Thanks! Try giving feedback on WhatsApp: <a href='https://wa.me/7353346164'>9977992417</a> 💬", "Fun is always good! 🎉", "Wonderful! 😄", "Fantastic! 😃", "Cool! 😎", "😊", "Awesome! 🌟", "Excellent! 👏"
   ],
   /* 14 */[
     "I'm really sorry to hear that you're feeling this way. It's important to talk to someone you trust about your feelings. ❤️",
@@ -65,6 +74,7 @@ const botReply = [
     "The previous school visit was a collaborative effort from all 4 clubs. It was a memorable event with lots of exciting activities and interactions. 📚🤝",
     "Ah, the school visit! It was a great initiative where all 4 clubs joined forces to create a memorable experience. The teamwork and enthusiasm were truly commendable! 🌟🤝"
   ],
+ 
 ];
 
 // Ensure the number of responses in botReply matches the number of message groups in userMessage
@@ -84,7 +94,7 @@ const alternative = [
   "I'm here to help, but I need a clearer question to provide a meaningful answer. 🤷‍♂️",
   "It seems like we're on different wavelengths. Please try asking something else. 📡",
   "I apologize, but I couldn't grasp the meaning of your input. Please rephrase your question. 🙁",
-  "You can contact Amaan:<br> Phone: <a href='tel:8867305645'>8867305645 📱</a><br> WhatsApp: <a href='https://wa.me/7353346164'>7353346164 💬"
+  "You can contact Shudhanshu:<br> Phone: <a href='tel:9977992417'>9977992417 📱</a><br> WhatsApp: <a href='https://wa.me/9977992417'>9977992417 💬"
 ];
 let lastUserDiv;
 
